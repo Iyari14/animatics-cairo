@@ -12,8 +12,8 @@ context.paint()
 surface.write_to_png("frame.png")
 
 class Sim:
-  def __init__(self, mobjects=[]):
-    self.mobjects = mobjects
+  def construction(self, mobjects=[]):
+    pass
   def run(self):
     WIDTH = 1920
     HEIGHT = 1080
